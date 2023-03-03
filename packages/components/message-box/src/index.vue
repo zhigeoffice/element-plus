@@ -182,7 +182,7 @@ import {
 import { ElIcon } from '@element-plus/components/icon'
 import ElFocusTrap from '@element-plus/components/focus-trap'
 
-import type { ComponentPublicInstance, PropType } from 'vue'
+import type { ComponentPublicInstance, DefineComponent, PropType } from 'vue'
 import type { ComponentSize } from '@element-plus/constants'
 import type {
   Action,
@@ -501,5 +501,5 @@ export default defineComponent({
       t,
     }
   },
-})
+}) as DefineComponent
 </script>
